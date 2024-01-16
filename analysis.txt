@@ -17,3 +17,23 @@ Percentage of the mean of all affirmative votes in the United Nations Human Righ
 2020: 58%
 2021: 63%
 2022: 57%
+
+Percentage of the mean of all negative votes in the United Nations Human Rights Council per year:
+
+2006: 15%
+2007: 18%
+2008: 14%
+2009: 16%
+2010: 17%
+2011: 15%
+2012: 11%
+2013: 10%
+2014: 17%
+2015: 17%
+2016: 14%
+2017: 17%
+2018: 14%
+2019: 19%
+2020: 15%
+2021: 19%
+2022: 19%
