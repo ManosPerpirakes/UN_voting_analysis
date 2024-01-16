@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as pl
 from set_data import filenames
 
 analysis = "Percentage of the mean of all affirmative votes in the United Nations Human Rights Council per year:\n\n"
@@ -17,3 +18,6 @@ analysis += "Percentage of the mean of all negative votes in the United Nations 
 analyse_percentage("Dissapproval_percentage")
 with open("analysis.txt", "w") as file:
     file.write(analysis)
+df = pd.read_csv("un_voting_2023.csv")
+df["Absenteeism_percentage"].plot(grid=True)
+pl.show()

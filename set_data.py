@@ -44,6 +44,7 @@ def set_data():
     df["Total"] = df["vote_summary"].apply(set_total)
     df["Pro_percentage"] = df["Yes"].apply(set_percentage)
     df["Dissapproval_percentage"] = df["No"].apply(set_percentage)
+    df["Absenteeism_percentage"] = df["Absent"].apply(set_percentage)
 for i in filenames:
     df = pd.read_csv(i)
     set_data()
