@@ -19,5 +19,5 @@ analyse_percentage("Dissapproval_percentage")
 with open("analysis.txt", "w") as file:
     file.write(analysis)
 df = pd.read_csv("un_voting_2023.csv")
-df["Absenteeism_percentage"].plot(grid=True)
+df["Pro_percentage"].plot(grid=True)
 pl.show()
